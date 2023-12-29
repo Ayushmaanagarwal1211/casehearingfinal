@@ -10,11 +10,11 @@ import leftcity from '../images/left-city.png'
 import man from '../images/man.png'
 
 import rail from "../images/rail.png"
-import centercity from '../images/courtss.png'
+import centercity from '../images/courtss-Copy.png'
 import leftmountain from '../images/hill-left-1.png'
 import mountainright from '../images/hill-right-1.png'
-import moon from '../images/moon.png'
-import desert from '../images/desert.png'
+import moon from '../images/pngtree-moon-png-image_2434780.png'
+import desert from '../images/desert1.png'
 import rightcity from '../images/right-city.png'
 import desertrock from '../images/desert-rock.png'
 // import sky from '../images/sky.png'
@@ -183,7 +183,7 @@ return ()=>{
 
      <Image   src={desertrock} width={600} height={1500} className='absolute bottom-28 h-[40vh] left-[10vw] w-[600px]  z-[90]'></Image>
      <Image   src={aboutwater} width={600} height={1500} className='absolute bottom-0 h-[130px] w-[100vw]  z-[92]'></Image>
-    {showmoon && <Image   src={moon} width={600} height={1500} className='absolute top-[600px] h-[50px] w-[50px] left-[300px] z-[91]' ></Image>
+    {showmoon && <Image   src={moon}  className='absolute top-[600px] h-[50px] w-[50px] left-[300px] z-[91]' ></Image>
 }
                   <Image   src={man} width={600} height={1500} className='absolute bottom-10  h-[140px] w-[300px]  z-[93]' style={{ transform: `translateX(${scroll2>400 && scroll2<1700?scroll2-400+"px":scroll2<400?"0px":scroll2>1700?"90vw":""})`,transition:"transform 0.5s "}}></Image>
 
